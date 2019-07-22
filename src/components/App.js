@@ -36,7 +36,7 @@ class App extends React.Component {
                             <div class="item">One more separated link</div>
                         </div>
                     </div>
-                    <div class="right menu">
+                    <div>
                         <div class="item">
                             <div class="ui transparent inverted icon input">
                             <div><SearchBar oniSubmit={this.oniSubmit} /></div>
