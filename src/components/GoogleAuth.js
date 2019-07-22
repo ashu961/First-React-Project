@@ -38,7 +38,7 @@ renderAuthButton(){
         return(
             <button onClick={this.OnSignIn} className="ui google button">
                 <i className="google icon" />
-                Sign In
+                Sign In with Google
             </button>
         );
     }
