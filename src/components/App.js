@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import SearchBar from './SearchBar';
 import ImageList from './ImageList';
+import GoogleAuth from './GoogleAuth';
 class App extends React.Component{
 state={images:[]};
     oniSubmit=async (term)=>{
@@ -17,6 +18,7 @@ state={images:[]};
     render(){
         return (
             <div>
+            <div><GoogleAuth/></div>
             <div><SearchBar oniSubmit={this.oniSubmit}/></div>
             <div><ImageList images={this.state.images}/></div>
             </div>
