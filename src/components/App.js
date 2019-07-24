@@ -20,7 +20,7 @@ class App extends React.Component {
             <div>
                 <div>
                     <div class="ui inverted menu">
-                    <a class="item"><div><GoogleAuth /></div></a>
+                    <button class="item"><div><GoogleAuth /></div></button>
                 <div class="item">
                         <div class="ui transparent inverted icon input">
                             <div><SearchBar oniSubmit={this.oniSubmit} /></div>
@@ -39,6 +39,7 @@ class App extends React.Component {
                         <div class="item">One more separated link</div>
                     </div>
                 </div>
+
                 </div>
                 <div class="ui column grid">
                     <div class="column">
